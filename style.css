@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background-color: #162447;
+    padding: 1em 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+header h1 {
+    font-size: 2.5em;
+    color: #e43f5a;
+}
+header nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+header nav a:hover {
+    color: #e43f5a;
+}
+
+/* Section Styles */
+section {
+    padding: 2em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#about, #events, #team, #contact {
+    background-color: #1f4068;
+}
+h2 {
+    color: #e43f5a;
+}
+p {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Events Section */
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+.event-card {
+    background-color: #162447;
+    padding: 1.5em;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+/* Meet the Team */
+.team-member {
+    background-color: #162447;
+    padding: 1em;
+    width: 80%;
+    max-width: 300px;
+    margin: 1em auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Info Button */
+button {
+    background-color: #e43f5a;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #9a1750;
+}
